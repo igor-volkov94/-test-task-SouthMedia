@@ -18,7 +18,7 @@ if (!function_exists("printLogs")) {
 
     function printLogs($arFields, string $namePrintFileLog = "printLogs.log")
     {
-        $defaultFileDir = '/TestTask-SouthMedia/logs/';
+        $defaultFileDir = '/logs/';
         $arDirFile = explode('/', $namePrintFileLog);
 
         if (count($arDirFile) > 1) {
